@@ -35,11 +35,10 @@ body {
   background-color: #777;
 }
 .carousel-item > img {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: -200px;
   left: 0;
   min-width: 100%;
-  height: 32rem;
 }
 
 
@@ -49,11 +48,11 @@ body {
     margin: 1px 3px;
     height: 10px;
     max-width: 10px;
-    border: 1px solid #FFF;
+    border: 1px solid #000;
     background-color: transparent;
 }
 .carousel-indicators .active {
-    background-color: #fff;
+    background-color: #000;
     max-width: 12px;
     margin: 0 3px;
     height: 12px;
